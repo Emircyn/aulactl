@@ -3,6 +3,8 @@
 A lightweight, open-source replacement for the official **AULA F75** keyboard software (`OemDrv.exe`).
 Built with Tauri 2 (Rust + `hidapi`) and Nuxt UI. Works over USB cable and the 2.4 GHz receiver.
 
+**Completely free.** No ads, no accounts, no telemetry (the only network request is the once-a-day firmware version check on AULA's website). Use it, fork it, modify it, ship it in your own product, commercial or not; the [MIT license](LICENSE) only asks you to keep the copyright notice.
+
 > **Unofficial.** Not affiliated with or endorsed by AULA / Epomaker. "AULA" and "F75" are trademarks of their owners.
 > The protocol was reverse engineered from the official driver for interoperability ([docs/PROTOCOL.md](docs/PROTOCOL.md)).
 > Use at your own risk: every write is preceded by an automatic backup, but this is still a third-party tool writing to your keyboard's flash.
@@ -75,6 +77,7 @@ See [docs/PROTOCOL.md](docs/PROTOCOL.md) §5b. Highlights:
 
 AULA F75 için resmi `OemDrv.exe` yerine geçen hafif, açık kaynak ayar uygulaması. Kablolu ve 2.4G alıcıyla çalışır:
 ışık efektleri, tuş atama, tuş başına renk, makrolar, uyku/debounce, profiller, pil bildirimi, Caps Lock ve müzik ışıkları, firmware denetimi.
+Tamamen ücretsizdir: reklam, hesap ya da veri toplama yok (tek ağ isteği, günde bir kez AULA sitesinden firmware sürümüne bakmak). İstediğin gibi kullan, değiştir, kendi ürününde (ticari olsa da) dağıt; MIT lisansı yalnızca telif satırının korunmasını ister.
 Resmi değildir, AULA ile bağlantısı yoktur. Bakımı yapılmıyor; PR ve fork'lar memnuniyetle. Protokol notları: [docs/PROTOCOL.md](docs/PROTOCOL.md).
 
 ## License
