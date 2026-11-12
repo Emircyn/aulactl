@@ -1,0 +1,1123 @@
+{
+ "model": "AULA F75",
+ "matrixLen": 128,
+ "keys": [
+  {
+   "id": 1,
+   "name": "Esc",
+   "rect": [
+    30,
+    30,
+    55,
+    57
+   ],
+   "vk": 27,
+   "index": 0
+  },
+  {
+   "id": 2,
+   "name": "F1",
+   "rect": [
+    107,
+    30,
+    132,
+    57
+   ],
+   "vk": 112,
+   "index": 12
+  },
+  {
+   "id": 3,
+   "name": "F2",
+   "rect": [
+    144,
+    30,
+    169,
+    57
+   ],
+   "vk": 113,
+   "index": 18
+  },
+  {
+   "id": 4,
+   "name": "F3",
+   "rect": [
+    183,
+    30,
+    208,
+    57
+   ],
+   "vk": 114,
+   "index": 24
+  },
+  {
+   "id": 5,
+   "name": "F4",
+   "rect": [
+    222,
+    30,
+    247,
+    57
+   ],
+   "vk": 115,
+   "index": 30
+  },
+  {
+   "id": 6,
+   "name": "F5",
+   "rect": [
+    269,
+    30,
+    294,
+    57
+   ],
+   "vk": 116,
+   "index": 36
+  },
+  {
+   "id": 7,
+   "name": "F6",
+   "rect": [
+    305,
+    30,
+    330,
+    57
+   ],
+   "vk": 117,
+   "index": 42
+  },
+  {
+   "id": 8,
+   "name": "F7",
+   "rect": [
+    343,
+    30,
+    368,
+    57
+   ],
+   "vk": 118,
+   "index": 48
+  },
+  {
+   "id": 9,
+   "name": "F8",
+   "rect": [
+    388,
+    30,
+    413,
+    57
+   ],
+   "vk": 119,
+   "index": 54
+  },
+  {
+   "id": 10,
+   "name": "F9",
+   "rect": [
+    439,
+    30,
+    464,
+    57
+   ],
+   "vk": 120,
+   "index": 60
+  },
+  {
+   "id": 11,
+   "name": "F10",
+   "rect": [
+    477,
+    30,
+    502,
+    57
+   ],
+   "vk": 121,
+   "index": 66
+  },
+  {
+   "id": 12,
+   "name": "F11",
+   "rect": [
+    516,
+    30,
+    541,
+    57
+   ],
+   "vk": 122,
+   "index": 72
+  },
+  {
+   "id": 13,
+   "name": "F12",
+   "rect": [
+    555,
+    30,
+    580,
+    57
+   ],
+   "vk": 123,
+   "index": 78
+  },
+  {
+   "id": 14,
+   "name": "End",
+   "rect": [
+    605,
+    195,
+    630,
+    222
+   ],
+   "vk": 35,
+   "index": 88
+  },
+  {
+   "id": 15,
+   "name": "`",
+   "rect": [
+    31,
+    81,
+    56,
+    108
+   ],
+   "vk": 192,
+   "index": 1
+  },
+  {
+   "id": 16,
+   "name": "1",
+   "rect": [
+    70,
+    81,
+    95,
+    108
+   ],
+   "vk": 49,
+   "index": 7
+  },
+  {
+   "id": 17,
+   "name": "2",
+   "rect": [
+    108,
+    81,
+    133,
+    108
+   ],
+   "vk": 50,
+   "index": 13
+  },
+  {
+   "id": 18,
+   "name": "3",
+   "rect": [
+    147,
+    81,
+    172,
+    108
+   ],
+   "vk": 51,
+   "index": 19
+  },
+  {
+   "id": 19,
+   "name": "4",
+   "rect": [
+    184,
+    81,
+    209,
+    108
+   ],
+   "vk": 52,
+   "index": 25
+  },
+  {
+   "id": 20,
+   "name": "5",
+   "rect": [
+    223,
+    81,
+    248,
+    108
+   ],
+   "vk": 53,
+   "index": 31
+  },
+  {
+   "id": 21,
+   "name": "6",
+   "rect": [
+    262,
+    81,
+    287,
+    108
+   ],
+   "vk": 54,
+   "index": 37
+  },
+  {
+   "id": 22,
+   "name": "7",
+   "rect": [
+    300,
+    80,
+    325,
+    107
+   ],
+   "vk": 55,
+   "index": 43
+  },
+  {
+   "id": 23,
+   "name": "8",
+   "rect": [
+    338,
+    81,
+    363,
+    108
+   ],
+   "vk": 56,
+   "index": 49
+  },
+  {
+   "id": 24,
+   "name": "9",
+   "rect": [
+    377,
+    81,
+    402,
+    108
+   ],
+   "vk": 57,
+   "index": 55
+  },
+  {
+   "id": 25,
+   "name": "0",
+   "rect": [
+    416,
+    81,
+    441,
+    108
+   ],
+   "vk": 48,
+   "index": 61
+  },
+  {
+   "id": 26,
+   "name": "-",
+   "rect": [
+    453,
+    81,
+    478,
+    108
+   ],
+   "vk": 189,
+   "index": 67
+  },
+  {
+   "id": 27,
+   "name": "=",
+   "rect": [
+    491,
+    81,
+    516,
+    108
+   ],
+   "vk": 187,
+   "index": 73
+  },
+  {
+   "id": 28,
+   "name": "Backspace",
+   "rect": [
+    531,
+    81,
+    591,
+    108
+   ],
+   "vk": 8,
+   "index": 79
+  },
+  {
+   "id": 29,
+   "name": "Delete",
+   "rect": [
+    604,
+    81,
+    629,
+    108
+   ],
+   "vk": 46,
+   "index": 85
+  },
+  {
+   "id": 30,
+   "name": "Tab",
+   "rect": [
+    34,
+    120,
+    78,
+    147
+   ],
+   "vk": 9,
+   "index": 2
+  },
+  {
+   "id": 31,
+   "name": "Q",
+   "rect": [
+    89,
+    119,
+    114,
+    146
+   ],
+   "vk": 81,
+   "index": 8
+  },
+  {
+   "id": 32,
+   "name": "W",
+   "rect": [
+    127,
+    119,
+    152,
+    146
+   ],
+   "vk": 87,
+   "index": 14
+  },
+  {
+   "id": 33,
+   "name": "E",
+   "rect": [
+    165,
+    119,
+    190,
+    146
+   ],
+   "vk": 69,
+   "index": 20
+  },
+  {
+   "id": 34,
+   "name": "R",
+   "rect": [
+    204,
+    119,
+    229,
+    146
+   ],
+   "vk": 82,
+   "index": 26
+  },
+  {
+   "id": 35,
+   "name": "T",
+   "rect": [
+    242,
+    119,
+    267,
+    146
+   ],
+   "vk": 84,
+   "index": 32
+  },
+  {
+   "id": 36,
+   "name": "Y",
+   "rect": [
+    280,
+    119,
+    305,
+    146
+   ],
+   "vk": 89,
+   "index": 38
+  },
+  {
+   "id": 37,
+   "name": "U",
+   "rect": [
+    318,
+    119,
+    343,
+    146
+   ],
+   "vk": 85,
+   "index": 44
+  },
+  {
+   "id": 38,
+   "name": "I",
+   "rect": [
+    356,
+    119,
+    381,
+    146
+   ],
+   "vk": 73,
+   "index": 50
+  },
+  {
+   "id": 39,
+   "name": "O",
+   "rect": [
+    395,
+    119,
+    420,
+    146
+   ],
+   "vk": 79,
+   "index": 56
+  },
+  {
+   "id": 40,
+   "name": "P",
+   "rect": [
+    433,
+    119,
+    458,
+    146
+   ],
+   "vk": 80,
+   "index": 62
+  },
+  {
+   "id": 41,
+   "name": "[",
+   "rect": [
+    471,
+    120,
+    496,
+    147
+   ],
+   "vk": 219,
+   "index": 68
+  },
+  {
+   "id": 42,
+   "name": "]",
+   "rect": [
+    509,
+    119,
+    534,
+    146
+   ],
+   "vk": 221,
+   "index": 74
+  },
+  {
+   "id": 43,
+   "name": "\\",
+   "rect": [
+    549,
+    119,
+    593,
+    146
+   ],
+   "vk": 220,
+   "index": 80
+  },
+  {
+   "id": 44,
+   "name": "PgUp",
+   "rect": [
+    605,
+    120,
+    630,
+    147
+   ],
+   "vk": 33,
+   "index": 86
+  },
+  {
+   "id": 45,
+   "name": "CapsLock",
+   "rect": [
+    33,
+    158,
+    85,
+    185
+   ],
+   "vk": 20,
+   "index": 3
+  },
+  {
+   "id": 46,
+   "name": "A",
+   "rect": [
+    98,
+    158,
+    123,
+    185
+   ],
+   "vk": 65,
+   "index": 9
+  },
+  {
+   "id": 47,
+   "name": "S",
+   "rect": [
+    136,
+    158,
+    161,
+    185
+   ],
+   "vk": 83,
+   "index": 15
+  },
+  {
+   "id": 48,
+   "name": "D",
+   "rect": [
+    174,
+    158,
+    199,
+    185
+   ],
+   "vk": 68,
+   "index": 21
+  },
+  {
+   "id": 49,
+   "name": "F",
+   "rect": [
+    213,
+    158,
+    238,
+    185
+   ],
+   "vk": 70,
+   "index": 27
+  },
+  {
+   "id": 50,
+   "name": "G",
+   "rect": [
+    252,
+    158,
+    277,
+    185
+   ],
+   "vk": 71,
+   "index": 33
+  },
+  {
+   "id": 51,
+   "name": "H",
+   "rect": [
+    290,
+    158,
+    315,
+    185
+   ],
+   "vk": 72,
+   "index": 39
+  },
+  {
+   "id": 52,
+   "name": "J",
+   "rect": [
+    327,
+    158,
+    352,
+    185
+   ],
+   "vk": 74,
+   "index": 45
+  },
+  {
+   "id": 53,
+   "name": "K",
+   "rect": [
+    366,
+    158,
+    391,
+    185
+   ],
+   "vk": 75,
+   "index": 51
+  },
+  {
+   "id": 54,
+   "name": "L",
+   "rect": [
+    405,
+    158,
+    430,
+    185
+   ],
+   "vk": 76,
+   "index": 57
+  },
+  {
+   "id": 55,
+   "name": ";",
+   "rect": [
+    443,
+    158,
+    468,
+    185
+   ],
+   "vk": 186,
+   "index": 63
+  },
+  {
+   "id": 56,
+   "name": "'",
+   "rect": [
+    481,
+    158,
+    506,
+    185
+   ],
+   "vk": 222,
+   "index": 69
+  },
+  {
+   "id": 57,
+   "name": "Enter",
+   "rect": [
+    521,
+    158,
+    591,
+    185
+   ],
+   "vk": 13,
+   "index": 81
+  },
+  {
+   "id": 58,
+   "name": "LShift",
+   "rect": [
+    33,
+    195,
+    105,
+    222
+   ],
+   "vk": 160,
+   "index": 4
+  },
+  {
+   "id": 59,
+   "name": "Z",
+   "rect": [
+    116,
+    195,
+    141,
+    222
+   ],
+   "vk": 90,
+   "index": 10
+  },
+  {
+   "id": 60,
+   "name": "X",
+   "rect": [
+    155,
+    195,
+    180,
+    222
+   ],
+   "vk": 88,
+   "index": 16
+  },
+  {
+   "id": 61,
+   "name": "C",
+   "rect": [
+    193,
+    195,
+    218,
+    222
+   ],
+   "vk": 67,
+   "index": 22
+  },
+  {
+   "id": 62,
+   "name": "V",
+   "rect": [
+    232,
+    195,
+    257,
+    222
+   ],
+   "vk": 86,
+   "index": 28
+  },
+  {
+   "id": 63,
+   "name": "B",
+   "rect": [
+    270,
+    196,
+    295,
+    223
+   ],
+   "vk": 66,
+   "index": 34
+  },
+  {
+   "id": 64,
+   "name": "N",
+   "rect": [
+    309,
+    195,
+    334,
+    222
+   ],
+   "vk": 78,
+   "index": 40
+  },
+  {
+   "id": 65,
+   "name": "M",
+   "rect": [
+    347,
+    195,
+    372,
+    222
+   ],
+   "vk": 77,
+   "index": 46
+  },
+  {
+   "id": 66,
+   "name": ",",
+   "rect": [
+    384,
+    195,
+    409,
+    222
+   ],
+   "vk": 188,
+   "index": 52
+  },
+  {
+   "id": 67,
+   "name": ".",
+   "rect": [
+    424,
+    195,
+    449,
+    222
+   ],
+   "vk": 190,
+   "index": 58
+  },
+  {
+   "id": 68,
+   "name": "/",
+   "rect": [
+    463,
+    195,
+    488,
+    222
+   ],
+   "vk": 191,
+   "index": 64
+  },
+  {
+   "id": 69,
+   "name": "RShift",
+   "rect": [
+    502,
+    195,
+    558,
+    222
+   ],
+   "vk": 161,
+   "index": 70
+  },
+  {
+   "id": 70,
+   "name": "Up",
+   "rect": [
+    567,
+    195,
+    592,
+    222
+   ],
+   "vk": 38,
+   "index": 82
+  },
+  {
+   "id": 71,
+   "name": "LCtrl",
+   "rect": [
+    34,
+    234,
+    69,
+    261
+   ],
+   "vk": 162,
+   "index": 5
+  },
+  {
+   "id": 72,
+   "name": "LWin",
+   "rect": [
+    79,
+    234,
+    114,
+    261
+   ],
+   "vk": 91,
+   "index": 11
+  },
+  {
+   "id": 73,
+   "name": "LAlt",
+   "rect": [
+    122,
+    235,
+    157,
+    262
+   ],
+   "vk": 164,
+   "index": 17
+  },
+  {
+   "id": 74,
+   "name": "Space",
+   "rect": [
+    174,
+    235,
+    400,
+    262
+   ],
+   "vk": 32,
+   "index": 35
+  },
+  {
+   "id": 75,
+   "name": "K75=463,236,497,263, 0x02,0xFF,0x00,59",
+   "rect": [
+    463,
+    236,
+    497,
+    263
+   ],
+   "vk": 196,
+   "index": 59
+  },
+  {
+   "id": 76,
+   "name": "FN",
+   "rect": [
+    414,
+    235,
+    449,
+    262
+   ],
+   "vk": 250,
+   "index": 53
+  },
+  {
+   "id": 77,
+   "name": "Left",
+   "rect": [
+    529,
+    234,
+    554,
+    261
+   ],
+   "vk": 37,
+   "index": 77
+  },
+  {
+   "id": 78,
+   "name": "Down",
+   "rect": [
+    568,
+    234,
+    593,
+    261
+   ],
+   "vk": 40,
+   "index": 83
+  },
+  {
+   "id": 79,
+   "name": "Right",
+   "rect": [
+    605,
+    234,
+    630,
+    261
+   ],
+   "vk": 39,
+   "index": 89
+  },
+  {
+   "id": 80,
+   "name": "PgDn",
+   "rect": [
+    604,
+    159,
+    629,
+    186
+   ],
+   "vk": 34,
+   "index": 87
+  }
+ ],
+ "effects": [
+  {
+   "ui": 1,
+   "hw": 1,
+   "name": "Fixed on",
+   "speed": false,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 2,
+   "hw": 3,
+   "name": "Respire",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 3,
+   "hw": 2,
+   "name": "Rainbow",
+   "speed": true,
+   "brightness": true,
+   "color": false
+  },
+  {
+   "ui": 4,
+   "hw": 19,
+   "name": "Flash away",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 5,
+   "hw": 15,
+   "name": "Raindrops",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 6,
+   "hw": 13,
+   "name": "Rainbow wheel",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 7,
+   "hw": 20,
+   "name": "Ripples shining",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 8,
+   "hw": 16,
+   "name": "Stars twinkle",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 9,
+   "hw": 18,
+   "name": "Shadow disappear",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 10,
+   "hw": 5,
+   "name": "Retro snake",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 11,
+   "hw": 7,
+   "name": "Neon stream",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 12,
+   "hw": 17,
+   "name": "Reaction",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 13,
+   "hw": 12,
+   "name": "Sine wave",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 14,
+   "hw": 8,
+   "name": "Retinue scanning",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  },
+  {
+   "ui": 15,
+   "hw": 28,
+   "name": "Rotating windmill",
+   "speed": true,
+   "brightness": true,
+   "color": false
+  },
+  {
+   "ui": 16,
+   "hw": 30,
+   "name": "Colorful waterfall",
+   "speed": true,
+   "brightness": true,
+   "color": false
+  },
+  {
+   "ui": 17,
+   "hw": 14,
+   "name": "Blossoming",
+   "speed": true,
+   "brightness": true,
+   "color": false
+  },
+  {
+   "ui": 18,
+   "hw": 29,
+   "name": "Rotating storm",
+   "speed": true,
+   "brightness": true,
+   "color": true
+  }
+ ],
+ "sleepSeconds": [
+  60,
+  90,
+  120,
+  180,
+  240,
+  300,
+  600,
+  900,
+  1200
+ ]
+}

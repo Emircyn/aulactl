@@ -1,0 +1,8 @@
+{
+  "bundle": {
+    "linux": {
+      "deb": { "files": { "/usr/lib/udev/rules.d/70-aula-f75.rules": "linux/70-aula-f75.rules" } },
+      "rpm": { "files": { "/usr/lib/udev/rules.d/70-aula-f75.rules": "linux/70-aula-f75.rules" } }
+    }
+  }
+}

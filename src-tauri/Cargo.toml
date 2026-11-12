@@ -1,0 +1,47 @@
+[package]
+name = "aulactl"
+version = "0.3.0"
+description = "Lightweight settings app for the AULA F75 keyboard"
+authors = ["Emircyn"]
+license = "MIT"
+repository = "https://github.com/Emircyn/aulactl"
+edition = "2024"
+rust-version = "1.90"
+default-run = "aulactl"
+
+[lib]
+name = "aulactl_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "aulactl-cli"
+path = "src/bin/cli.rs"
+# yalnız cihaz testi için; kurulumlara girmesin: cargo build --bin aulactl-cli --features cli
+required-features = ["cli"]
+
+[features]
+cli = []
+
+[build-dependencies]
+tauri-build = { version = "2.7.2", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "2.12.3", features = ["tray-icon"] }
+tauri-plugin-notification = "2"
+tauri-plugin-autostart = "2"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = ["Win32_UI_Input_KeyboardAndMouse", "Win32_UI_WindowsAndMessaging", "Win32_System_Threading", "Win32_System_LibraryLoader", "Win32_Foundation"] }
+hidapi = { version = "2", default-features = false, features = ["windows-native"] }
+cpal = "0.18.2"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+hidapi = { version = "2", default-features = false, features = ["linux-native-basic-udev"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+hidapi = { version = "2", default-features = false, features = ["macos-shared-device"] }
+
+[profile.release]
+strip = true

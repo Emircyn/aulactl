@@ -1,0 +1,8 @@
+{
+  "bundle": {
+    "windows": {
+      "nsis": { "installMode": "currentUser", "languages": ["English", "Turkish"] },
+      "wix": { "language": ["en-US", "tr-TR"] }
+    }
+  }
+}
