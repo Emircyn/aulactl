@@ -45,7 +45,7 @@ async function fwCall(cmd: 'firmware_check' | 'firmware_update', silent = false)
 // sayfa her açıldığında site/ağ hatası toast olmasın; elle "Denetle" hatayı gösterir
 onMounted(() => fwCall('firmware_check', true))
 
-// Windows açılışında tepside başlama (kayıt defteri Run anahtarı; ilk açılışta açılır)
+// Oturum açılışında tepside başlama (kayıt defteri Run anahtarı; ilk açılışta açılır)
 const autostart = ref(false)
 onMounted(async () => (autostart.value = await call<boolean>('autostart_get')))
 async function setAutostart(on: boolean) {
@@ -143,7 +143,7 @@ const musicHex = computed({
         <USwitch
           v-model="prefs.music"
           :label="t('Bilgisayarın sesine göre tuşlar yansın')"
-          :description="t('Çalan sesin frekansları tuş sütunlarında çubuk olarak görünür (Windows).')"
+          :description="t('Çalan sesin frekansları tuş sütunlarında çubuk olarak görünür.')"
         />
         <div
           v-if="prefs.music"

@@ -235,7 +235,16 @@ pub fn caps_on() -> bool {
       })
       .unwrap_or(false)
   }
-  #[cfg(not(any(windows, target_os = "linux")))]
+  #[cfg(target_os = "macos")]
+  {
+    #[link(name = "CoreGraphics", kind = "framework")]
+    unsafe extern "C" {
+      fn CGEventSourceFlagsState(state: i32) -> u64;
+    }
+    // kCGEventSourceStateHIDSystemState = 1, kCGEventFlagMaskAlphaShift = 0x10000
+    unsafe { CGEventSourceFlagsState(1) & 0x1_0000 != 0 }
+  }
+  #[cfg(not(any(windows, target_os = "linux", target_os = "macos")))]
   {
     false
   }

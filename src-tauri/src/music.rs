@@ -75,9 +75,28 @@ pub fn colors(keys: &[(usize, usize, usize)], lv: &[f32; BANDS], color: Rgb, rai
     .collect()
 }
 
-#[cfg(windows)]
+/// Sistem sesinin kaydedileceği aygıt ve ayarı. Windows (WASAPI) ve macOS 14.2+ (CoreAudio) çıkış aygıtında
+/// giriş akışını loopback olarak açar; Linux'ta PulseAudio/PipeWire-pulse varsayılan çıkışın ".monitor" kaynağını verir.
+fn loopback() -> Option<(cpal::Device, cpal::SupportedStreamConfig)> {
+  use cpal::traits::{DeviceTrait, HostTrait};
+  let host = cpal::default_host();
+  let out = host.default_output_device()?;
+  #[cfg(target_os = "linux")]
+  {
+    let mon = format!("{}.monitor", out.id().ok()?.id());
+    let dev = host.input_devices().ok()?.find(|d| d.id().is_ok_and(|i| i.id() == mon))?;
+    let cfg = dev.default_input_config().ok()?;
+    Some((dev, cfg))
+  }
+  #[cfg(not(target_os = "linux"))]
+  {
+    let cfg = out.default_output_config().ok()?;
+    Some((out, cfg))
+  }
+}
+
 pub fn run(app: AppHandle) {
-  use cpal::traits::{DeviceTrait, HostTrait, StreamTrait};
+  use cpal::traits::{DeviceTrait, StreamTrait};
   use std::sync::{Arc, Mutex};
   use std::time::Duration;
 
@@ -92,9 +111,10 @@ pub fn run(app: AppHandle) {
       if !wanted() {
         continue;
       }
-      // çıkış aygıtında giriş akışı = WASAPI loopback
-      let Some(dev) = cpal::default_host().default_output_device() else { continue };
-      let Ok(cfg) = dev.default_output_config() else { continue };
+      let Some((dev, cfg)) = loopback() else {
+        std::thread::sleep(Duration::from_secs(3));
+        continue;
+      };
       let (ch, rate) = (cfg.channels() as usize, cfg.sample_rate() as f32);
       let buf = Arc::new(Mutex::new(Vec::<f32>::with_capacity(N * 2)));
       let failed = Arc::new(AtomicBool::new(false));
@@ -149,8 +169,6 @@ pub fn run(app: AppHandle) {
   });
 }
 
-#[cfg(not(windows))]
-pub fn run(_: AppHandle) {} // ponytail: loopback yalnız Windows'ta; Linux için PulseAudio/PipeWire monitor kaynağı eklenebilir
 
 #[cfg(test)]
 mod tests {

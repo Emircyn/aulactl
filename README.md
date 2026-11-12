@@ -17,8 +17,10 @@ The author no longer uses an F75, so the project is **unmaintained** — issues 
 - Key remapping (base + FN layer), per-key RGB, macros
 - Profiles, backup / restore (`%APPDATA%\aulactl\backups`)
 - Battery level + low-battery notifications (the official app does not show this)
-- Caps Lock indicator, notification lights, music-reactive lighting (Windows, WASAPI loopback)
-- Firmware version check against the vendor site (it only opens the official updater; it never flashes anything itself)
+- Caps Lock indicator, notification lights, music-reactive lighting (system audio: WASAPI loopback on Windows, PulseAudio/PipeWire monitor on Linux, CoreAudio on macOS 14.2+)
+- Firmware version check against the vendor site (it only opens the official updater, which is Windows-only; it never flashes anything itself)
+
+Everything above runs on Windows, Linux and macOS from the same code; the only Windows-only part is launching AULA's own firmware updater.
 - Tray icon, start on login
 
 Hardware: wired `258A:010C`, 2.4G receiver `3554:FA09`. Tested on firmware `0x1100`, mostly over the receiver.
