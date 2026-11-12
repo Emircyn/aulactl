@@ -1,6 +1,6 @@
 [package]
 name = "aulactl"
-version = "0.3.0"
+version = "0.4.0"
 description = "Lightweight settings app for the AULA F75 keyboard"
 authors = ["Emircyn"]
 license = "MIT"
